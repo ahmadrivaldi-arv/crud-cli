@@ -1,0 +1,34 @@
+
+{
+
+
+    "authors":{
+        "name":"ahmad rivaldi",
+        "e-mail": "rivaldi19122@gmail.com",
+        "social-media":{
+            "facebook": "Ahmad Rivaldi",
+            "instagram": "ahmadrivaldi-arv",
+            "telegram": "ahmadrivaldi_arv",
+            "github"  : "ahmadrivaldi-arv"
+        }
+    },
+    "build":{
+        "date": "23-02-2021",
+        "version": "1.0.0"
+    },
+    "database-config":{
+        "host"       : "localhost",
+        "username"   : "admin",
+        "password"   : "admin1912",
+        "auth_plugin": "mysql_native_password",
+        "database"   : "mydb",
+
+        "database-table":{
+            "columns-1"  : "customers_id",
+            "columns-3"  : "name",
+            "columns-4"  : "address",
+            "columns-5"  : "phone_num"
+        }
+
+    }
+}
